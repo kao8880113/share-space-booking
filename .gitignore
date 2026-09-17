@@ -2,3 +2,14 @@
 node_modules/
 .env
 .env.local
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# アプリのデータベース（予約データ）はリポジトリに含めない
+bookings.db
+
+# Streamlit
+.streamlit/secrets.toml
